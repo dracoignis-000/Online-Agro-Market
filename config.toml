@@ -1,5 +1,5 @@
 baseurl = "http://example.org/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Universal"
+title = "Agro Park"
 theme = "hugo-universal-theme"
 themesDir = "/home/ignis_draco/Documents/Projects/agropark.com/themes/"
 languageCode = "en-us"
@@ -29,44 +29,16 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
+
 
 [[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Features"
+    name       = "Shop"
     identifier = "menu.features"
     url        = "/img/template-easy-customize.png"
     weight     = 3
 
 [[menu.main]]
-    name       = "Shortcodes"
+    name       = "Categories"
     identifier = "section.shortcodes"
     url        = ""
     weight     = 1
@@ -74,7 +46,7 @@ pluralizelisttitles = false
     post       = 1
 
 [[menu.main]]
-    name       = "Header variations"
+    name       = "Farming Goods"
     identifier = "section.headervariations"
     url        = ""
     weight     = 2
@@ -82,67 +54,45 @@ pluralizelisttitles = false
     post       = 2
 
 [[menu.main]]
-    name       = "Accordions"
+    name       = "Fruits"
     url        = ""
     weight     = 1
     parent     = "section.shortcodes"
 
 [[menu.main]]
-    name       = "Alerts"
+    name       = "Vegetables"
     url        = ""
     weight     = 2
     parent     = "section.shortcodes"
 
 [[menu.main]]
-    name       = "Buttons"
+    name       = "livestock"
     url        = ""
     weight     = 3
     parent     = "section.shortcodes"
 
 [[menu.main]]
-    name       = "Content Boxes"
+    name       = "Poultry"
     url        = ""
     weight     = 4
     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Horizontal Blocks"
-    url        = ""
-    weight     = 5
-    parent     = "section.shortcodes"
+
 
 [[menu.main]]
-    name       = "Pagination"
-    url        = ""
-    weight     = 6
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Tabs"
-    url        = ""
-    weight     = 7
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Default Sticky Header"
+    name       = "Tools"
     url        = ""
     weight     = 1
     parent     = "section.headervariations"
 
 [[menu.main]]
-    name       = "No Sticky Header"
+    name       = "Crop Resources"
     url        = ""
     weight     = 2
     parent     = "section.headervariations"
 
 [[menu.main]]
-    name       = "Light Header"
+    name       = "Heavy Machinery"
     url        = ""
     weight     = 3
     parent     = "section.headervariations"
@@ -161,53 +111,7 @@ pluralizelisttitles = false
     parent     = "menu.portfolio"
     post       = 1
 
-[[menu.main]]
-    name       = "2 Columns"
-    url        = ""
-    weight     = 1
-    parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "2 Columns With Negative Space"
-    url        = ""
-    weight     = 2
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "3 Columns"
-    url        = ""
-    weight     = 3
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "3 Columns With Negative Space"
-    url        = ""
-    weight     = 4
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "4 Columns"
-    url        = ""
-    weight     = 5
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "4 Columns With Negative Space"
-    url        = ""
-    weight     = 6
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Portfolio - detail"
-    url        = ""
-    weight     = 7
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Portfolio - detail 2"
-    url        = ""
-    weight     = 8
-    parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "About"
@@ -243,97 +147,9 @@ pluralizelisttitles = false
     weight     = 1
     parent     = "section.marketing"
 
-[[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
-    url        = ""
-    weight     = 4
 
-[[menu.main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 1
 
-[[menu.main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 1
 
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Contact"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
 
 [[menu.main]]
     name       = "Blog"
@@ -523,10 +339,10 @@ pluralizelisttitles = false
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    title = "Agro Park"
+    subtitle = "We strive to put the power in the cosnumers hands. This platform brings the farmer closer to the market. Take control now and start shoping from our display"
     link_url = "#"
-    link_text = "Check other homepages"
+    link_text = "Shop Now"
 
 [params.clients]
     enable = true
