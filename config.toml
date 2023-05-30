@@ -333,8 +333,8 @@ pluralizelisttitles = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Categories"
+    subtitle = "We have worked with many clients and have curated the following categories to showcase on our platform."
 
 [params.see_more]
     enable = true
