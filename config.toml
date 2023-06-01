@@ -175,13 +175,13 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+264 81 2799398"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "/"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
@@ -199,13 +199,13 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "godgaoseb@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Godfrey Tarry Gaoseb"
+    defaultKeywords = ["Software", "IT", "Web Development"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
@@ -218,8 +218,8 @@ pluralizelisttitles = false
     enableGoogleMaps = true
     googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "-22.5609"
+    longitude = "17.0658"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -258,27 +258,25 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
-
+    about_us = "<p>Agro Market is a web-based application that aims to help farmers manage their crops and improve their yields. It provides various features such as buying & selling of crops, crop advice, market prices, and a forum for farmers to connect with each other. In addition it provides logistic support so the farmer is in charger from the beginning to the end.</p>"
+    copyright = "Copyright (c) 2023 , EMIT IO all rights reserved."
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Agro Park"
+    logo_text = "Agro Park "
 
     logo = "img/logo-temp.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p class="text-uppercase"><strong>Agro Park</strong>
+        <br>WHK Namibia
+        <br>Windhoek West
+        <br>06 Puccini Street Windhoek West
+        <br>NAM
         <br>
-        <strong>Great Britain</strong>
       </p>
       """
 
@@ -288,7 +286,7 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +812799398 or godgaoseb@gmail.com.</p>
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
@@ -355,7 +353,7 @@ pluralizelisttitles = false
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    subtitle = "Agro Market is a web-based application that aims to help farmers manage their crops and improve their yields. It provides various features such as buying & selling of crops, crop advice, market prices, and a forum for farmers to connect with each other. In addition it provides logistic support so the farmer is in charger from the beginning to the end. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
