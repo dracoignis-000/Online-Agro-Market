@@ -34,7 +34,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Shop"
     identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
+    url        = "/img/carousel/1.svg"
     weight     = 3
 
 [[menu.main]]
@@ -100,7 +100,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Portfolio"
     identifier = "menu.portfolio"
-    url        = "/img/temp-homepage.png"
+    url        = "/img/carousel/21.svg"
     weight     = 3
 
 [[menu.main]]
