@@ -17,9 +17,12 @@ summaryLength = 70
 paginate = 10
 
 # not pluralize title pages by default
+
+
 pluralizelisttitles = false
 
 [menu]
+
 
 
 # Main menu
@@ -101,15 +104,8 @@ pluralizelisttitles = false
     name       = "Portfolio"
     identifier = "menu.portfolio"
     url        = "/img/carousel/21.svg"
-    weight     = 3
+    weight     = 2
 
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.portfolio"
-    post       = 1
 
 
 
@@ -268,7 +264,7 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Agro Park "
 
-    logo = "img/logo-temp.png"
+    logo = "img/logo_(v1).svg"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Agro Park</strong>
